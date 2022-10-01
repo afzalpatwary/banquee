@@ -1,0 +1,154 @@
+/**
+ * @Main scss for (banquee)
+ * @project     - banquee
+ * @author      - 
+ * @created_by  - Md Afzal Hossain Patwary
+ */
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* fonts import -END */
+/* reset, root */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: "DM Sans", sans-serif; }
+
+:root {
+  --clr-dark: #1a191e;
+  --clr-gray: #f8f8f8;
+  --clr-gray-deep: rgba(26, 25, 30, 0.5);
+  --clr-green: #5bb5a2;
+  --clr-green-light: #e8f2ee;
+  --clr-red-light: #f1dfdf; }
+
+/* reset, root - END */
+/* customize, container */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px; } }
+
+/* customize, container - END */
+/* helper , base classes */
+.text-clr-dark {
+  color: var(--clr-dark); }
+
+.text-clr-gray {
+  color: var(--clr-gray); }
+
+.text-clr-gray-deep {
+  color: var(--clr-gray-deep); }
+
+.text-clr-green {
+  color: var(--clr-green); }
+
+.bg-clr-green {
+  background-color: var(--clr-green); }
+
+.bg-clr-greenLight {
+  background-color: var(--clr-green-light); }
+
+.bg-clr-redLight {
+  background-color: var(--clr-red-light); }
+
+.bg-clr-gray {
+  background-color: var(--clr-gray); }
+
+.fwMedium {
+  font-weight: 500; }
+
+.fwSemiBold {
+  font-weight: 600; }
+
+.ff-inter {
+  font-family: "Inter", sans-serif; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.fs-15 {
+  font-size: 15px; }
+
+.fs-18 {
+  font-size: 18px; }
+
+.fs-80 {
+  font-size: 80px; }
+  @media (max-width: 991px) {
+    .fs-80 {
+      font-size: 50px; } }
+
+.rounded-16 {
+  border-radius: 16px; }
+
+.rounded-20 {
+  border-radius: 20px; }
+
+.letterSpace {
+  letter-spacing: -0.03em; }
+
+.section-padding {
+  padding: 160px 0; }
+  @media (max-width: 991px) {
+    .section-padding {
+      padding: 100px 0; } }
+
+.pb-160 {
+  padding-bottom: 160px; }
+  @media (max-width: 991px) {
+    .pb-160 {
+      padding-bottom: 100px; } }
+
+.pb-100 {
+  padding-bottom: 100px; }
+  @media (max-width: 991px) {
+    .pb-100 {
+      padding-bottom: 70px; } }
+
+.section-info .section-title {
+  font-size: 64px;
+  line-height: 110%;
+  margin-bottom: 30px; }
+  @media (max-width: 991px) {
+    .section-info .section-title {
+      font-size: 40px; } }
+.section-info .section-intro {
+  font-weight: 500;
+  font-size: 17.9551px;
+  margin-bottom: 30px; }
+
+/* helper , base classes  - END*/
+.header .container {
+  max-width: 1400px; }
+.header .navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none; }
+.header .navbar .nav-item .nav-link:hover {
+  background-color: var(--clr-gray);
+  color: var(--clr-dark); }
+.header .navbar .nav-item .nav-link.dropdown-toggle::after {
+  border: 0; }
+.header .navbar .nav-item .nav-link.dropdown-toggle.show .drop-icon {
+  transform: rotate(180deg); }
+@media (max-width: 991px) {
+  .header .navbar .nav-item .nav-link {
+    display: inline-block; } }
+
+.banner-features {
+  padding: 128px 0; }
+
+.single-product .product-img {
+  width: 160px;
+  height: 160px;
+  line-height: 100px; }
+
+.transition-card .cardIcon {
+  width: 50px;
+  height: 50px; }
+
+/*# sourceMappingURL=style.css.map */
